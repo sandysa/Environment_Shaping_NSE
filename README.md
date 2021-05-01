@@ -3,11 +3,11 @@ Python code base for "Mitigating Negative Side Effects via Environment Shaping",
 Link to paper: https://arxiv.org/abs/2102.07017
 
 -----------------------------------------------------------------------------------------------------------
-The experiments currently support "boxpushing" domain for the single actor, single designer setting, and an AV driving domain for multiple actors, single designer setting. Each environment is described by a map.
+The experiments currently support "boxpushing" domain for the single actor, single designer setting, and an AV driving domain for multiple actors, single designer setting. Each environment is described by a map. 
 
-Boxpushing domain: The agent is expected to quickly push a box across the room, during which it may dirty the rug or knock over the vase as a negative side effect. 
+Boxpushing domain: The agent is expected to quickly push a box across the room, during which it may dirty the rug or knock over the vase as a negative side effect. Number of modifications considered: 24.
 
-Driving domain: The agent optimizes travel time between locations. It does not slow down when navigating through potholes, causing bumpy ride for passengers and potentially damaging the car. 
+Driving domain: The agent optimizes travel time between locations. It does not slow down when navigating through potholes, causing bumpy ride for passengers and potentially damaging the car. Number of modifications considered: 9.
 
 -----------------------------------------------------------------------------------------------------------
 File Description:
