@@ -27,6 +27,8 @@ File Description:
 **Code Execution**:
 Dependencies: sklearn, numpy
 
+The logs and plots are saved in the results folder. 
+
 **Single agent shaping boxpushing domain**:
 - Avoidable NSE: python shaping_boxpushing.py 
 - Unavoidable NSE: python shaping_boxpushing.py unavoidable
