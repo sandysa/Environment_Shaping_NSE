@@ -38,9 +38,9 @@ Example: python shaping_multiple_actors.py 50
 
 **Feedback_baseline**:
 - Avoidable NSE: python feedback_baseline.py boxpushing
-- Generalize feedback results:python feedback_baseline.py boxpushing generalize
+- Generalize feedback results: python feedback_baseline.py boxpushing generalize
 - Unavoidable NSE: python feedback_baseline.py boxpushing unavoidable
-- Generalize feedback results:python feedback_baseline.py boxpushing generalize unavoidable
+- Generalize feedback results: python feedback_baseline.py boxpushing generalize unavoidable
 
 **Generate plots**:
 - Single actor: python plotresults.py [SHAPING_FILE] [FEEDBACK_FILE] [OP_FILENAME]
@@ -48,5 +48,5 @@ Example: python shaping_multiple_actors.py 50
 Example: python plotresults.py ../results/bp_trials.txt ../results/bp_feedback_baseline_avoidable.txt ../results/bp_feedback_baseline_avoidable_generalize.txt bp
 - Multiple actors: python plot_multipleactors_results.py [OP_FILENAME]
 
-Example:python plot_multipleactors_results.py driving
+Example: python plot_multipleactors_results.py driving
 
