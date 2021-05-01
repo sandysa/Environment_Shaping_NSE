@@ -28,9 +28,8 @@ File Description:
 Dependencies: sklearn, numpy
 
 **Single agent shaping boxpushing domain**:
-Avoidable NSE: python shaping_boxpushing.py 
-
-Unavoidable NSE: python shaping_boxpushing.py unavoidable
+- Avoidable NSE: python shaping_boxpushing.py 
+- Unavoidable NSE: python shaping_boxpushing.py unavoidable
 
 **Shaping for multiple actors**:
 python shaping_multiple_actors.py [NUMBER_ACTORS]
@@ -38,20 +37,16 @@ python shaping_multiple_actors.py [NUMBER_ACTORS]
 Example: python shaping_multiple_actors.py 50
 
 **Feedback_baseline**:
-Avoidable NSE: python feedback_baseline.py boxpushing
-
-Generalize feedback results:python feedback_baseline.py boxpushing generalize
-
-Unavoidable NSE: python feedback_baseline.py boxpushing unavoidable
-
-Generalize feedback results:python feedback_baseline.py boxpushing generalize unavoidable
+- Avoidable NSE: python feedback_baseline.py boxpushing
+- Generalize feedback results:python feedback_baseline.py boxpushing generalize
+- Unavoidable NSE: python feedback_baseline.py boxpushing unavoidable
+- Generalize feedback results:python feedback_baseline.py boxpushing generalize unavoidable
 
 **Generate plots**:
-Single actor: python plotresults.py [SHAPING_FILE] [FEEDBACK_FILE] [OP_FILENAME]
+- Single actor: python plotresults.py [SHAPING_FILE] [FEEDBACK_FILE] [OP_FILENAME]
 
 Example: python plotresults.py ../results/bp_trials.txt ../results/bp_feedback_baseline_avoidable.txt ../results/bp_feedback_baseline_avoidable_generalize.txt bp
-
-Multiple actors: python plot_multipleactors_results.py [OP_FILENAME]
+- Multiple actors: python plot_multipleactors_results.py [OP_FILENAME]
 
 Example:python plot_multipleactors_results.py driving
 
